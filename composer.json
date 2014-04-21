@@ -1,0 +1,23 @@
+{
+    "name": "WizardsFugue/magento1_tests",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Fahlke aka Flyingmana",
+            "email": "flyingmana@googlemail.com",
+            "homepage": "http://flyingmana.name"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Foo\\Bar": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "alpha"
+}
